@@ -40,11 +40,11 @@ public class empleado {
 		if(nominaBruta <=2100) {
 			return nominaBruta*(1-retencion);
 			
-		}else if(nominaBruta> 2100 && nominaBruta<=2500) {
+		}else if(nominaBruta> 2100 && nominaBruta<2500) {
 			retencion= (float) 0.15;
 			return nominaBruta*(1-retencion);
 			
-		} else if(nominaBruta > 2500 ) {
+		} else if(nominaBruta >= 2500 ) {
 			retencion = (float) 0.18;
 			return nominaBruta*(1-retencion);
 			
